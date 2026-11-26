@@ -1,164 +1,76 @@
-\# HackerRank – 3rd Semester Portfolio
+# HackerRank Algorithmic Problem-Solving Portfolio
 
+**Course:** B25CS0311 – Portfolio Building  
+**Semester:** 3rd Semester B.Tech – Computer Science and Engineering  
+**Activity:** 8 – HackerRank Algorithmic Problem-Solving & Portfolio Integration  
+**Programming Language:** Java 15
 
+## 1. Introduction
 
-\## Activity Details
+This repository contains solutions to five mandatory algorithmic problems completed on HackerRank as part of Activity 8. The problems cover matrix traversal, dynamic arrays, string manipulation, element-wise comparison, and hash maps.
 
+The solutions are implemented in Java and documented with their time and space complexity.
 
+## 2. HackerRank Profile
 
-\*\*Course:\*\* B25CS0311 – Portfolio Building  
+- **Username:** sulekha841204
+- **Profile:** https://www.hackerrank.com/profile/sulekha841204
 
-\*\*Semester:\*\* 3rd Semester B.Tech – Computer Science and Engineering  
+## 3. Problem Solutions
 
-\*\*Activity:\*\* Activity 8 – HackerRank Algorithmic Problem-Solving \& Portfolio Integration
+| No. | Problem | Topic | Solution |
+|---|---|---|---|
+| 1 | Diagonal Difference | 2D Arrays / Matrices | [View Solution](Diagonal-Difference/Solution.java) |
+| 2 | Dynamic Array | Data Structures / Arrays | [View Solution](Dynamic-Array/Solution.java) |
+| 3 | Time Conversion | Strings & Logic | [View Solution](Time-Conversion/Solution.java) |
+| 4 | Compare the Triplets | Basic Implementation | [View Solution](Compare-the-Triplets/Solution.java) |
+| 5 | Sparse Arrays | Hash Maps / Strings | [View Solution](Sparse-Arrays/Solution.java) |
 
+## 4. Time and Space Complexity Analysis
 
-
-\## About This Repository
-
-
-
-This repository contains solutions to five mandatory HackerRank algorithmic problems completed as part of Activity 8. The solutions are implemented in Java and demonstrate fundamental programming concepts, array manipulation, matrix traversal, string processing, hash maps, and algorithmic problem-solving.
-
-
-
-\## HackerRank Profile
-
-
-
-\- \*\*HackerRank Profile:\*\* \[Sulekha's HackerRank Profile](https://www.hackerrank.com/profile/sulekha841204)
-
-
-
-\## Problems Solved
-
-
-
-| No. | Problem Name | Topic |
-
+| Problem | Time Complexity | Auxiliary Space Complexity |
 |---|---|---|
-
-| 1 | Compare the Triplets | Basic Implementation |
-
-| 2 | Diagonal Difference | 2D Arrays / Matrices |
-
-| 3 | Dynamic Array | Data Structures / Vectors |
-
-| 4 | Sparse Arrays | Hash Maps / Strings |
-
-| 5 | Time Conversion | Strings and Logic |
-
-
-
-\## Time and Space Complexity
-
-
-
-| Problem | Time Complexity | Space Complexity |
-
-|---|---|---|
-
+| Diagonal Difference | O(N²) | O(1) |
+| Dynamic Array | O(N + Q) average/amortized | O(N + Q) |
+| Time Conversion | O(1) | O(1) |
 | Compare the Triplets | O(1) | O(1) |
-
-| Diagonal Difference | O(N²) | O(N²) |
-
-| Dynamic Array | O(N + Q) | O(N + Q) |
-
 | Sparse Arrays | O(N + Q) average | O(N) |
 
-| Time Conversion | O(1) | O(1) |
+**Note:** N represents the input size, and Q represents the number of queries. Diagonal Difference takes O(N²) time because the program reads all N² matrix elements.
 
+## 5. Screenshots
 
+Screenshots of accepted HackerRank submissions and earned badges will be included in the `Screenshots` folder.
 
-\## Technologies Used
+## 6. Learning Outcomes
 
+- Practiced solving algorithmic problems using Java.
+- Improved understanding of arrays, matrices, strings, and hash maps.
+- Applied bitwise XOR and dynamic array operations.
+- Learned to analyze time and space complexity.
+- Practiced maintaining and documenting programming solutions using GitHub.
 
-
-\- Java
-
-\- HackerRank
-
-\- Git
-
-\- GitHub
-
-\- Visual Studio Code
-
-
-
-\## Repository Structure
-
-
+## 7. Repository Structure
 
 ```text
-
 HackerRank-3rdSem-Portfolio/
-
 │
-
-├── Compare-the-Triplets/
-
-│   └── Solution.java
-
-│
-
 ├── Diagonal-Difference/
-
 │   └── Solution.java
-
 │
-
 ├── Dynamic-Array/
-
 │   └── Solution.java
-
 │
-
-├── Sparse-Arrays/
-
-│   └── Solution.java
-
-│
-
 ├── Time-Conversion/
-
 │   └── Solution.java
-
 │
-
+├── Compare-the-Triplets/
+│   └── Solution.java
+│
+├── Sparse-Arrays/
+│   └── Solution.java
+│
 ├── Screenshots/
-
-│   └── Accepted submission screenshots
-
 │
-
-├── .gitignore
-
 └── README.md
-
 ```
-
-
-
-\## Submission Evidence
-
-
-
-Screenshots of HackerRank accepted submissions and achievement badges are maintained in the `Screenshots` folder.
-
-
-
-\## Learning Outcomes
-
-
-
-\- Improved algorithmic problem-solving skills.
-
-\- Practiced arrays, matrices, strings, and hash maps.
-
-\- Understood time and space complexity.
-
-\- Learned to organize programming solutions using GitHub.
-
-\- Gained experience with HackerRank coding challenges.
-
