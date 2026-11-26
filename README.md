@@ -38,10 +38,24 @@ The solutions are implemented in Java and documented with their time and space c
 
 **Note:** N represents the input size, and Q represents the number of queries. Diagonal Difference takes O(N²) time because the program reads all N² matrix elements.
 
-## 5. Screenshots
+## 5. Screenshots and Achievements
 
-Screenshots of accepted HackerRank submissions and earned badges will be included in the `Screenshots` folder.
+### Java 3-Star Badge
 
+![Java 3-Star Badge](Screenshots/java-3-star-badge.png)
+
+### Accepted Submissions
+
+| Problem | Accepted Screenshot |
+|---|---|
+| Diagonal Difference | ![Accepted](Screenshots/diagonal-difference-accepted.png) |
+| Dynamic Array | ![Accepted](Screenshots/dynamic-array-accepted.png) |
+| Time Conversion | ![Accepted](Screenshots/time-conversion-accepted.png) |
+| Compare the Triplets | ![Accepted](Screenshots/compare-the-triplets-accepted.png) |
+| Sparse Arrays | ![Accepted](Screenshots/sparse-arrays-accepted.png) |
+
+Additional code screenshots are available in the `Screenshots` folder.
+ss
 ## 6. Learning Outcomes
 
 - Practiced solving algorithmic problems using Java.
